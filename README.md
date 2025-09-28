@@ -26,26 +26,10 @@ This project mimics Netflix’s interface with dynamic content, user interaction
 ## ⚙️ Setup & Installation
 ### 1. Clone the repository
 ```
-git clone https://github.com/YOUR-USERNAME/netflix-clone.git
-cd netflix-clone
+git clone https://github.com/AaravGupta-Coder/Netflixify.git
+cd Netflixify
 ```
-### 2. Get a TMDB API Key
-1. Sign up (free) at [The Movie Database](https://www.themoviedb.org/)
-2. Go to **Settings > API > Request an API key**
-3. Copy your API key
-
-### 3. Configure your API key
-This project uses a `config.js` file (ignored in Git for security).
-<br>
-1. Copy the provided example file:
-```
-cp config.example.js config.js
-```
-2. Open config.js and paste your **TMDB API key**:
-```
-const API_KEY = "YOUR_REAL_TMDB_KEY_HERE";
-```
-4. Run the project
+### 2.  Run the project
 Simply open `index.html` in your browser — no server needed!
 (If you host this repo with GitHub Pages, you’ll just need to add your config.js locally for it to work.)
 
