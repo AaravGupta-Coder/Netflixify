@@ -30,7 +30,7 @@ git clone https://github.com/YOUR-USERNAME/netflix-clone.git
 cd netflix-clone
 ```
 ### 2. Get a TMDB API Key
-1. Sign up (free) at The Movie Database
+1. Sign up (free) at [The Movie Database](https://www.themoviedb.org/)
 2. Go to **Settings > API > Request an API key**
 3. Copy your API key
 
@@ -62,10 +62,10 @@ This project is great practice for:
 - Clean project structuring for GitHub
 
 ## 🙌 Acknowledgements
-- TMDB API for movie and TV data
-- Font Awesome for icons
+- [TMDB API](https://www.themoviedb.org/documentation/api) for movie and TV data
+- [Font Awesome](https://fontawesome.com/) for icons
 - Netflix UI as design inspiration
 
 ## 👩‍💻 Author
 - Aarav Gupta — Frontend Developer & Netflix‑style binge‑coder 🍿
-- GitHub: @AaravGupta-Coder
+- GitHub: [@AaravGupta-Coder](https://github.com/AaravGupta-Coder/)
