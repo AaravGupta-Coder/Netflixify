@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="navbar-left">
+    <img class="netflix-logo"
+         src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+         alt="Netflix Logo">
+    <nav>
+      <a href="#" data-section="Home">Home</a>
+      <a href="#" data-section="TV">TV Shows</a>
+      <a href="#" data-section="Movies">Movies</a>
+      <a href="#" data-section="New">New & Popular</a>
+      <a href="#" data-section="MyList">My List</a>
+      <a href="#" data-section="Downloads">Downloads</a>
+    </nav>
+  </div>
+  <div class="navbar-right">
+    <input type="text" id="searchInput" placeholder="Search movies or TV shows">
+    <div class="nav-profile">
+      <img id="nav-avatar" class="avatar" src="https://i.pravatar.cc/150?img=47">
+      <span id="nav-profile-name">Guest</span>
+    </div>
+  </div>
+</header>
+
+<section class="banner" id="banner">
+  <div class="banner-contents">
+    <h1 class="banner-title" id="banner-title">Featured Title</h1>
+    <p class="banner-desc" id="banner-desc">Description</p>
+    <div class="banner-buttons">
+      <button class="btn-play"><i class="fas fa-play"></i> Play</button>
+      <button class="btn-info"><i class="fas fa-circle-info"></i> More Info</button>
+    </div>
+  </div>
+  <div class="banner-fadeBottom"></div>
+</section>
+
+<main id="content"></main>
+
+<div class="modal hidden" id="modal">
+  <div class="modal-content">
+    <span id="modal-close">&times;</span>
+    <h2 id="modal-title"></h2>
+    <p id="modal-desc"></p>
+    <div id="modal-trailer"></div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>Questions? Call 000-800-919-1694</p>
+  <div class="footer-links">
+    <a href="#">FAQ</a><a href="#">Help Centre</a><a href="#">Terms of Use</a><a href="#">Privacy</a>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
