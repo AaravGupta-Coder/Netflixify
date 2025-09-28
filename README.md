@@ -43,7 +43,6 @@ cp config.example.js config.js
 ```
 2. Open config.js and paste your **TMDB API key**:
 ```
-// config.js
 const API_KEY = "YOUR_REAL_TMDB_KEY_HERE";
 ```
 4. Run the project
