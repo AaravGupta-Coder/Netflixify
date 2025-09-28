@@ -1,4 +1,5 @@
 // ================= CONFIG =================
+const API_KEY = "40d43980c7a7712390fae1c0ccec4e32";
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMG_URL = "https://image.tmdb.org/t/p/w780";
 
@@ -227,4 +228,5 @@ document.querySelectorAll("nav a").forEach(link => {
 
 // INIT
 loadSection("Home");
+
 loadBanner();
